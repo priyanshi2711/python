@@ -2,7 +2,7 @@ version: 0.0
 os: linux
 files:
   - source: /app.py
-    destination: /var/www/html/app.py
+    destination: /var/www/app.py
 hooks:
   BeforeInstall:
     - location: scripts/install_dependencies
